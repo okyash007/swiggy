@@ -1,0 +1,34 @@
+{
+    "name": "swiggy-clone-react-by-hiren",
+    "version": "1.0.0",
+    "description": "Swiggy clone by Hiren 🚀 (ReactJS)",
+    "scripts": {
+        "start": "rm -rf .parcel-cache && rm -rf dist && parcel index.html",
+        "build": "parcel build index.html",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hirenkvaghasiya/swiggy-clone-by-hiren.git"
+    },
+    "keywords": [],
+    "author": "Hiren K Vaghasiya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hirenkvaghasiya/swiggy-clone-by-hiren/issues"
+    },
+    "homepage": "https://github.com/hirenkvaghasiya/swiggy-clone-by-hiren#readme",
+    "devDependencies": {
+        "parcel": "^2.8.3",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.10.0",
+        "shimmer-ui-effect": "^1.3.4"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ]
+}
